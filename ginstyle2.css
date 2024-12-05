@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'dirtycursive';
+    src: url(fonts/dirtycursive);
+}
+
+@font-face {
+    font-family: 'dogica';
+    src: url(dogica\ copy.ttf);
+}
+
+body {
+    background-color: rgb(227, 227, 227);
+    border-style:dotted; 
+    border-color: #1639e7;  
+    margin: 50px;
+}
+
+.header {
+    font-family: 'dirtycursive';
+    color: #1639e7;
+    font-size: 100px;
+    text-align: center;
+}
+
+.body-text {
+    font-family: 'dogica';
+    font-size: 15px;
+    color: #1639e7;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    /*auto margin will automatically center div box*/
+    margin-bottom: 60px;
+}
+
+.recipe-text {
+    text-align: left;
+    font-family: 'dogica';
+    font-size: 15px;
+    color: #1639e7;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='27' ry='27' stroke='%231639E7FF' stroke-width='25' stroke-dasharray='2%2c 6' stroke-dashoffset='28' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 27px;
+    padding: 75px;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+.content-box {
+    width: 400px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='27' ry='27' stroke='%231639E7FF' stroke-width='25' stroke-dasharray='2%2c 6' stroke-dashoffset='28' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 27px;
+    text-align: center;
+}
+
+.nav {
+    font-family: 'dogica';
+    font-size: 15px;
+    color:#1639e7;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#1639e7;
+}
